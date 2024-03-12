@@ -1,0 +1,16 @@
+Task:
+
+
+1. Create a class that implements smart pointers.
+
+2. Write a template class that implements the std::list functionality. The main functions of the class:
+
+void insert(const T&)
+
+void erase(const T&)
+
+bidirectional iterators
+
+3. Based on the implemented class in clause 2, create an analog of the std::map class
+
+4. Based on the implemented class in clause 3, create an analog of the std::set class
