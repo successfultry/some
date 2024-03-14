@@ -1,0 +1,48 @@
+program;
+int a = 4;
+int b;
+int c;
+
+
+begin
+
+	
+	if(a==1) 
+	begin
+		a = 4;
+	 	 
+	end;
+
+
+	else 
+	begin
+		a = 1;
+	end;
+ 
+
+	while (a < 3) 
+	begin
+		a = a  + 3;
+		break;
+		write(a);
+	end;
+
+	
+	for (b=0;b<4;b=b+1)
+	begin	
+		write(b);
+		
+		if (b>1)
+		begin
+			break;			
+		end;
+		
+		else
+		begin
+			break;
+		end;
+			
+	end;		
+
+	
+end;

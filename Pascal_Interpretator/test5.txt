@@ -1,0 +1,18 @@
+program;
+int a = 0;
+int i = +3;
+int c = -1;
+real b = 3.14;
+
+begin
+
+a=i+c;
+write(a);
+
+b=b*2;
+write(b);
+
+end;
+
+
+

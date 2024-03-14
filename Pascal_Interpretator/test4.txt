@@ -1,0 +1,52 @@
+program;
+int a = 0;
+int i = +3;
+int c = -1;
+real b = 3.14;
+string s = "@#$";
+string ww;
+
+begin
+
+i = 1+2 + 3 + 4;
+ww = "324";
+
+b = i / 2;
+
+a = -1 - -4;
+
+a < a;
+a <= i;
+c > a;
+c >= a;
+a == c;
+a != c;
+
+a = not (a);
+
+"asdf" == "wwe";
+
+read(a);
+a + 1;
+
+read(ww);
+ww+s;
+
+read(b);
+b >= 1.4;
+
+write(a);
+write(b,c,i);
+
+if (2 > 3) begin
+	write(4);
+end;
+
+
+end;
+
+
+
+
+
+
